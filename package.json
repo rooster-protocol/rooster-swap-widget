@@ -1,0 +1,72 @@
+{
+  "name": "@nexuslabsdev/rooster-swap",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/lib/main.d.ts",
+      "default": "./dist/main.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexuslabsdev/rooster-swap"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b ./tsconfig.lib.json && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "@tanstack/react-query": "^5.65.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "^2.22.22",
+    "wagmi": "^2.14.10"
+  },
+  "devDependencies": {
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^5.15.9",
+    "@rainbow-me/rainbowkit": "^2.2.3",
+    "@tanstack/react-query": "^5.65.1",
+    "@types/lodash": "^4.14.201",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "ajv": "^8.17.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "notistack": "^3.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.2",
+    "vite": "^6.1.0",
+    "vite-plugin-dts": "^4.2.1",
+    "vite-plugin-lib-inject-css": "^2.1.1",
+    "vite-plugin-svgr": "^4.3.0",
+    "viem": "^2.22.22",
+    "wagmi": "^2.14.10"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^5.15.9",
+    "boring-avatars": "^1.11.2",
+    "lodash": "^4.17.21",
+    "react-use": "^17.6.0",
+    "unstated-next": "^1.1.0"
+  }
+}
