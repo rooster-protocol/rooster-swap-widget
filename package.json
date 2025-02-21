@@ -1,5 +1,5 @@
 {
-  "name": "@nexuslabsdev/rooster-swap",
+  "name": "@rooster-protocol/rooster-swap",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nexuslabsdev/rooster-swap"
+    "url": "https://github.com/rooster-protocol/rooster-swap-widget"
   },
   "sideEffects": [
     "**/*.css"

@@ -1,4 +1,4 @@
-import { SwapWidget } from "@nexuslabsdev/rooster-swap";
+import { SwapWidget } from "@rooster-protocol/rooster-swap";
 import { useQueryClient } from "@tanstack/react-query";
 import { ConnectButton, useConnectModal } from "@rainbow-me/rainbowkit";
 import { AppBar, Toolbar } from "@mui/material";
