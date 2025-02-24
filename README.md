@@ -26,4 +26,4 @@ This repository also includes [sample code](https://github.com/rooster-protocol/
 
 The swap widget can also be customized with the following:
 
-- A callback function to initiate toast on swaps or errors
+- A callback function to initiate toasts on swaps or errors
