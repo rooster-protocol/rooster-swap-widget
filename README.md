@@ -5,10 +5,12 @@ This widget can be inserted as a React component inside of an existing dapp.
 ## Install
 
 To get started with the component:
+
 yarn: `yarn add @rooster-protocol/rooster-swap`,
+
 npm: `npm i @rooster-protocol/rooster-swap`
 
-Note that React and Wagmi are peer dependencies so they must be installed as well. (Wagmi has it's own peer dependencies...check the [Wagmi docs]('https://wagmi.sh/react/getting-started').)
+Note that React and Wagmi are peer dependencies so they must be installed as well. Wagmi has it's own peer dependencies...check the [Wagmi docs]('https://wagmi.sh/react/getting-started').
 
 ## Get Started
 
